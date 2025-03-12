@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilizando o header */
+
+header {
+    padding: 25px;
+    background-color: #2c2b26;
+    color: aliceblue;
+    display: flex;
+    /*tornando os itens lado a lado*/
+    justify-content: center;
+    /*justifica o conteudo ao centro*/
+    gap: 40px;
+    /*espaço entre os elementos*/
+    align-items: center;
+    /*responsavel por alinhar verticalmente os itens*/
+}
+
+header img {
+    font-size: 60px;
+    /* tamanho do icone */
+    color: aliceblue;
+    /* cor do icone */
+    width: 70px;
+    /*tamanho da imagem*/
+}
+
+header h1 {
+    color: aliceblue;
+    /*cor da letra*/
+    font-family: "Libre Baskerville", serif;
+    /*fonte da letra*/
+}
+
+body {
+    background-color: #738c79;
+}
+
+
+.list-menu ul {
+    display: flex;
+    /*alteração da lista nao ordenada (ELEMENTO PAI)*/
+    justify-content: center;
+    /*tornando as (li) flex/lado a lado*/
+    gap: 20px;
+    /*espaço entre as (li)*/
+}
+
+.list-menu ul li {
+    /*ALteração da lista nao ordenada (ELEMENTO FILHO)*/
+    list-style: none;
+    /*Removendo o estilo de lista aplicada (bolinha)*/
+}
+
+.list-menu ul li a {
+    text-decoration: none;
+    /*remoção do sublinhado (decoração de texto nenhuma)*/
+    color: #ecbe13;
+}
+
+/* FIM DO CABEÇALHO E INICIO DA PROXIMA SESSAO */
+
+.sessao01 {
+    padding: 160px;
+    /*preenchimento/tamanho*/
+    background-color: #738c79;
+    /*cor de fundo*/
+    display: flex;
+    /*torna os iten lado a lado*/
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.sessao01 span {
+    color: rgb(190, 26, 26);
+    font-size: 40px;
+}
+
+.sessao02 span {
+    color: #13ec54;
+    font-size: 40px;
+}
+
+.sessao01 img {
+    width: 800px;
+    height: 600px;
+}
+
+
+.sessao01 p {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: "Libre Baskerville", serif;
+}
+
+
+
+
+/* FIM DA PRIMEIRA SESSAO E INICIO DA PROXIMA SESSAO */
+
+.sessao02 {
+    background-color: #ecbd13a9;
+    padding: 180px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+
+.sessao02 i {
+    font-size: 50px;
+    color: #738c79;
+}
+
+.sessao02 p {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+
+
+
+/* FIM DA SEGUNDA SESSAO E INICIO DA PROXIMA SESSAO */
+
+
+.sessao03 {
+    padding: 200px;
+    background-image: url(imagensdaloja/spider.png);
+    /*uploading de imagem*/
+    background-position: center;
+    /*posição da imagem*/
+    background-size: cover;
+    /*preenchimento da imagem*/
+    background-repeat: no-repeat;
+    /*desabilitando a repetição da imagem*/
+    background-attachment: fixed;
+    /*mantem a imagem fixa de fundo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sessao03 button {
+    padding: 8px;
+    width: 150px;
+    background-color: #ecbe13;
+}
+
+
+/* final da terceira sessao e inicio do footer */
+
+
+.sessao04 {
+    /* preenchimento/tamanho da section */
+    padding: 150px;
+    /* brecha entre as caixas*/
+    background-color: #2c2b26;
+    /*cor de fundo*/
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+
+}
+
+.sessao04 div {
+    /*estamos pradonizando todas as caixas/ div's*/
+    width: 300px;
+    /*largura da caixa*/
+    height: 300px;
+    /*altura de caixa*/
+    background-color: #125a44;
+    /*cor de fundo das caixas*/
+    text-align: center;
+    /*alinhamento do textos*/
+    padding: 15px;
+    /*espaços entre as brodas das caixsa*/
+}
+
+
+.div1 h2,p {
+margin-bottom: 25px;
+font-weight: 600;
+color: white;
+}
+ 
+footer {
+    padding: 25px;
+    background-color: black;
+
+    text-align: center;
+}
+
+footer p {
+    color: #ecbe13;
+    /*cor da letra*/
+    font-size: 25px;
+    /*tamanho da letra*/
+}
+
+
+footer i {
+    color: #ecbe13;
+    /*cor do icone*/
+    font-size: 20px;
+    /*tamanho do icone*/
+}
+
+.div2 {
+    /*aqui estamos alterando a segunda caixa div2*/
+    background-image: url(imagensdaloja/marvel\ 300x300.png);
+    /*colocando imagem dentor da caixa*/
+    background-size: cover;
+    /*aplicando preechumento total na imagem*/
+    /*background position right bottom; */
+}
+
+.s2p1 {
+    color: aqua;
+    font-size: 40px;
+}
+
+.div1 i {
+    color: #c2cf0c;
+    gap: 20px;
+}
+
+
+.div3 img {
+    width: 100px;
+    height: 100px;
+}
+
+.div3 p {
+    font-size: 17px; /*tamanho dá letra*/
+    color: white; /*cor dá tela*/
+    font-weight: 600; /*peso dá fonte*/
+    line-height: 20px; /*distancia enre as linhas*/
+}
